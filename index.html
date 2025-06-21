@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tecnología Educativa</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('clock').textContent = 
+                now.toLocaleDateString() + ' ' + now.toLocaleTimeString();
+        }
+        setInterval(updateClock, 1000);
+        window.onload = updateClock;
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Tecnología Educativa en la Educación Superior</h1>
+        <div id="clock"></div>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="autora.html">Sobre la Autora</a>
+        <a href="sociedad_contemporanea.html">Sociedad Contemporánea</a>
+        <a href="sociedad_informacion.html">Sociedad de la Información</a>
+        <a href="sociedad_conocimiento.html">Sociedad del Conocimiento</a>
+    </nav>
+    <main>
+        <h2>¿Qué es la Tecnología Educativa?</h2>
+        <p>
+            La tecnología educativa es el uso estratégico de herramientas tecnológicas para potenciar el aprendizaje,
+            mejorar los métodos de enseñanza y ampliar las oportunidades educativas. En la educación superior,
+            permite desarrollar habilidades digitales, fomentar la autonomía y generar ambientes de aprendizaje colaborativo e innovador.
+        </p>
+    </main>
+    <footer>
+        Sitio creado por Leidy Tubón © 2025
+    </footer>
+</body>
+</html>

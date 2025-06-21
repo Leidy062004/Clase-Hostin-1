@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Leidy Tubón</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Leidy Tubón - Docente UTMACH</h1>
+        <div id="clock"></div>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="autora.html">Sobre la Autora</a>
+        <a href="sociedad_contemporanea.html">Sociedad Contemporánea</a>
+        <a href="sociedad_informacion.html">Sociedad de la Información</a>
+        <a href="sociedad_conocimiento.html">Sociedad del Conocimiento</a>
+    </nav>
+    <main>
+        <h2>Sobre mí</h2>
+        <p>
+            Mi nombre es Leidy Tubón, docente de la Universidad Técnica de Machala (UTMACH).
+            Me especializo en pedagogía y tecnologías aplicadas a la educación. Trabajo con pasión en
+            el desarrollo de propuestas que integren la tecnología en el aula universitaria,
+            fortaleciendo las competencias digitales en mis estudiantes.
+        </p>
+    </main>
+    <footer>
+        Sitio creado por Leidy Tubón © 2025
+    </footer>
+    <script>
+        setInterval(() => {
+            document.getElementById('clock').textContent =
+                new Date().toLocaleString();
+        }, 1000);
+    </script>
+</body>
+</html>
